@@ -69,7 +69,7 @@ p {
 }
 .wrapper{
   width: 414px;
-  animation: slideFromRight 0.3s ease-in-out;
+  animation: slideFromRight 0.5s ease-in-out;
 }
 .wrapper2 {
   width: 414px;
