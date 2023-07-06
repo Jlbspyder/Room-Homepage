@@ -84,7 +84,7 @@ p {
   top: 0;
   left: 0;
   background: var(--White);
-  animation: slideFromRight 0.7s ease-in-out;
+  animation: slideFromRight 0.5s ease-in-out;
   width: 100%;
   height: 100px;
   z-index: 400;
@@ -95,7 +95,7 @@ p {
   left: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
-  animation: slideFromRight 0.7s ease-in-out;
+  animation: slideFromRight 0.5s ease-in-out;
   width: 100%;
   z-index: 300;
 }
