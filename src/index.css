@@ -222,9 +222,7 @@ button {
   border: none;
 } 
 .attribution { 
-position: absolute;
-top: 220%;
-left: 17%;
+display: none;
 }
 @keyframes slideFromLeft {
   0% {
