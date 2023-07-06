@@ -192,7 +192,7 @@ li {
   font-size: 1.5rem;
   padding-left: 20px;
 }
-shop:hover {
+.shop:hover {
     color: var(--DarkGray);
   }
 .dark {
