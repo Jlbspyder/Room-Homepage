@@ -69,6 +69,7 @@ p {
 }
 .wrapper{
   width: 414px;
+  animation: slideFromRight 0.3s ease-in-out;
 }
 .wrapper2 {
   width: 414px;
