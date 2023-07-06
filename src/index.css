@@ -16,7 +16,7 @@
   box-sizing: border-box;
 }
 h1{
-  font-size: 2.3rem;
+  font-size: 3rem;
   margin-bottom: 3px;
   padding: 20px;
 }
@@ -36,13 +36,13 @@ p {
   color: var(--DarkGray);
 }
 .container {
-  width: 300px;
+  width: 400px;
   height: 100vh;
   background-color: var(--White);
 }
 .pix-container {
   height: 300px;
-  width: 300px;
+  width: 400px;
 }
 .hamburger {
   cursor: pointer;
@@ -50,7 +50,7 @@ p {
 .close {
   position: absolute;
   top: 0;
-  left: -10px;
+  left: 1rem;
   margin-top: 0;
   cursor: pointer;
   color: var(--DarkGray);
@@ -59,7 +59,7 @@ p {
   z-index: 100;
 }
 .pix {
-  width: 300px;
+  width: 400px;
 }
 .hero-1 {
   position: relative;
@@ -69,13 +69,13 @@ p {
   animation-duration: 0.5s;
 }
 .wrapper{
-  width: 300px;
+  width: 400px;
 }
 .wrapper2 {
-  width: 300px;
+  width: 400px;
 }
 .discover {
-  width: 300px;
+  width: 400px;
 }
 .desktop-hero-1 {
   display: none;
@@ -85,7 +85,7 @@ p {
   top: 0;
   left: 0;
   background: var(--White);
-  width: 300px;
+  width: 400px;
   height: 100px;
 }
 .nav {
@@ -100,9 +100,9 @@ p {
 .mobile-menu {
   position: absolute;
   top: 35px;
-  left: 80px;
+  left: 12rem;
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
   z-index: 100;
 }
 .desktop-logo {
@@ -116,7 +116,7 @@ p {
 }
 li {
   list-style-type: none;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 .left-arrow-bg {
   display: none;
@@ -133,9 +133,9 @@ li {
 .left-bg {
   position: absolute;
   top: 25rem;
-  right: 13.5rem;
+  right: 6rem;
   background: var(--Black);
-  width: 4rem;
+  width: 5rem;
   height: 4rem;
   cursor: pointer;
 }
@@ -145,9 +145,9 @@ li {
 .right-bg {
   position: absolute;
   top: 25rem;
-  right: 9.6rem;
+  right: 1.3rem;
   background: var(--Black);
-  width: 4rem;
+  width: 5rem;
   height: 4rem;
   cursor: pointer;
 }
@@ -182,19 +182,16 @@ li {
   font-size: 1.5rem;
   padding-left: 20px;
 }
-.mobile-logo {
-  margin-left: -40px;
-}
 .dark {
   margin-top: 40px;
   width: 100%;
   height: 300px;
 }
 .lightPix-container {
-  width: 300px;
+  width: 400px;
 }
 .light {
-  margin-top: 35px;
+  margin-top: 5px;
   width: 100%;
   height: 300px;
 }
@@ -205,7 +202,7 @@ li {
 }
 .about h1 {
   margin-top: 40px;
-  font-size: 1.5rem;
+  font-size: 2.3rem;
   letter-spacing: 0.2rem;
 }
 button {
