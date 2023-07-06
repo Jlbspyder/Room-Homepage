@@ -42,7 +42,7 @@ p {
 }
 .pix-container {
   height: 300px;
-  width: 400px;
+  width: 414px;
 }
 .hamburger {
   cursor: pointer;
@@ -59,7 +59,7 @@ p {
   z-index: 500;
 }
 .pix {
-  width: 400px;
+  width: 414px;
 }
 .hero-1 {
   position: relative;
@@ -69,13 +69,13 @@ p {
   animation-duration: 0.5s;
 }
 .wrapper{
-  width: 400px;
+  width: 414px;
 }
 .wrapper2 {
-  width: 400px;
+  width: 414px;
 }
 .discover {
-  width: 400px;
+  width: 414px;
 }
 .desktop-hero-1 {
   display: none;
@@ -143,7 +143,7 @@ li {
 .left-bg {
   position: absolute;
   top: 25rem;
-  right: 6rem;
+  right: 5rem;
   background: var(--Black);
   width: 5rem;
   height: 4rem;
@@ -155,7 +155,7 @@ li {
 .right-bg {
   position: absolute;
   top: 25rem;
-  right: 1.3rem;
+  right: 0.1rem;
   background: var(--Black);
   width: 5rem;
   height: 4rem;
@@ -198,7 +198,7 @@ li {
   height: 300px;
 }
 .lightPix-container {
-  width: 400px;
+  width: 414px;
 }
 .light {
   margin-top: 5px;
