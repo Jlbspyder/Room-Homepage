@@ -113,6 +113,7 @@ p {
   top: 35px;
   left: 12rem;
   display: flex;
+  animation: slideFromRight 0.5s ease-in-out;
   gap: 1.5rem;
   z-index: 500;
 }
