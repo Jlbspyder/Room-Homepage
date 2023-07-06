@@ -56,7 +56,7 @@ p {
   color: var(--DarkGray);
   width: 25px;
   height: 25px;
-  z-index: 100;
+  z-index: 500;
 }
 .pix {
   width: 400px;
@@ -80,13 +80,23 @@ p {
 .desktop-hero-1 {
   display: none;
 }
-.banner {
+.mobile-menu-banner {
   position: absolute;
   top: 0;
   left: 0;
   background: var(--White);
-  width: 400px;
+  width: 100%;
   height: 100px;
+  z-index: 400;
+}
+.mobile-menu-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  z-index: 300;
 }
 .nav {
   position: absolute;
@@ -103,7 +113,7 @@ p {
   left: 12rem;
   display: flex;
   gap: 1.5rem;
-  z-index: 100;
+  z-index: 500;
 }
 .desktop-logo {
   display: none;

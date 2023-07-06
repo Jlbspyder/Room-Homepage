@@ -70,7 +70,8 @@ const HomePage = () => {
             <li>contact</li>
             </div>
           </ul>}
-          {open && <div className="banner"></div>}
+          {open && <div className="mobile-menu-bg"></div>}
+          {open && <div className="mobile-menu-banner"></div>}
           <div className="arrows">
             <button className="left-bg" onClick={handlePrevious}>
               <img src="/icon-angle-left.svg" alt="arrow" className="left" />
