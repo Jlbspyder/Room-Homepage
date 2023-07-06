@@ -223,8 +223,8 @@ button {
 } 
 .attribution { 
 position: absolute;
-top: 230%;
-left: 15%;
+top: 210%;
+left: 17%;
 }
 @keyframes slideFromLeft {
   0% {
