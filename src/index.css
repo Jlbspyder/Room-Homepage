@@ -220,9 +220,11 @@ li {
 }
 button {
   border: none;
-}
+} 
 .attribution { 
-  display: none;
+position: absolute;
+top: 189%;
+left: 15%;
 }
 @keyframes slideFromLeft {
   0% {
