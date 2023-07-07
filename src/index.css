@@ -457,7 +457,7 @@ button {
   }
   .pix {
     height: 480px;
-    width: 930px;
+    width: 850px;
   }
   .desktop-hero-1 {
     position: relative;
@@ -483,7 +483,7 @@ button {
     width: 15px;
   }
   .one {
-    max-width: 880px;
+    max-width: 850px;
     display: grid;
     grid-template-columns: 1fr;
   }
@@ -499,7 +499,7 @@ button {
     width: 780px;
   }
   .pix-container {
-    width: 930px;
+    width: 850px;
     height: 95%;
   }
   .dark {
@@ -507,14 +507,14 @@ button {
     height: 100%;
   }
   .lightPix-container {
-    width: 930px;
+    width: 850px;
   }
   .light {
     margin-top: 0;
     height: 100%;
   }
   .three {
-    max-width: 880px;
+    max-width: 850px;
     display: grid;
     grid-template-columns: 1fr;
   }
