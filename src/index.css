@@ -142,7 +142,7 @@ li {
 }
 .left-bg {
   position: absolute;
-  top: 25.2rem;
+  top: 25.5rem;
   right: 4rem;
   background: var(--Black);
   width: 5rem;
@@ -154,7 +154,7 @@ li {
 }
 .right-bg {
   position: absolute;
-  top: 25.2rem;
+  top: 25.5rem;
   right: -1rem;
   background: var(--Black);
   width: 5rem;
