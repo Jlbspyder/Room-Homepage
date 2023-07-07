@@ -96,9 +96,6 @@ p {
   width: 103%;
   z-index: 300;
 }
-.mobile-menu-banner-close {
-  animation: slideOutRight 0.7s ease-in-out;
-}
 .mobile-menu-banner {
   position: absolute;
   top: 0;
@@ -145,7 +142,7 @@ li {
 }
 .left-bg {
   position: absolute;
-  top: 25rem;
+  top: 25.2rem;
   right: 4rem;
   background: var(--Black);
   width: 5rem;
@@ -157,7 +154,7 @@ li {
 }
 .right-bg {
   position: absolute;
-  top: 25rem;
+  top: 25.2rem;
   right: -1rem;
   background: var(--Black);
   width: 5rem;
