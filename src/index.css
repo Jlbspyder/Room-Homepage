@@ -463,12 +463,66 @@ button {
   }
   .pix {
     height: 480px;
-    width: 850px;
+    width: 930px;
   }
-  .desktop-hero-1 {
-    position: relative;
+   h3 {
+    font-size: 5rem;
+  }
+  .desktop-logo {
+    display: none;
+  }
+  .desktop-menu {
+    display: none;
+  }
+  .mobile-logo {
+    display: block;
+    margin-left: 150px;
+  }
+  .hamburger {
+    display: block;
+    width: 4rem;
+    margin-left: 40px;
+  }
+  .nav {
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 9rem;
+  }
+  .mobile-menu {
+    display: block;
+    position: absolute;
+    top: 35px;
+    left: 200px;
+    display: flex;
+    animation: slideFromRight 0.7s ease-in-out;
+    gap: 6rem;
+    z-index: 500;
+  }
+  .mobile-menu li {
+    color: var(--Black);
+    font-size: 3rem;
+  }
+  .close {
+    top: 0;
+    left: 40px;
+    width: 45px;
+    height: 45px;
+  }
+  .mobile-menu-bg {
+    width: 930px;
+    height: 100vh;
+  }
+  .mobile-menu-banner {
+    width: 930px;
+  }
+  .hero-1 {
+    display: block;
     height: 100%;
-    width: 100%;
   }
   .left-arrow-bg {
     top: 64.4%;
