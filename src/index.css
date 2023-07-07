@@ -48,6 +48,7 @@ p {
 }
 .pix {
   width: 414px;
+  margin-left: -2px;
 }
 .hamburger {
   cursor: pointer;
@@ -145,7 +146,7 @@ li {
 .left-bg {
   position: absolute;
   top: 25rem;
-  right: 4.5rem;
+  right: 3.6rem;
   background: var(--Black);
   width: 5rem;
   height: 4rem;
@@ -157,7 +158,7 @@ li {
 .right-bg {
   position: absolute;
   top: 25rem;
-  right: -0.5rem;
+  right: -1.3rem;
   background: var(--Black);
   width: 5rem;
   height: 4rem;
