@@ -364,6 +364,7 @@ button {
   }
   .li-bg {
     height: 25px;
+    transition: border 0.2s ease-in-out;
   }
   .li-bg:hover {
     border-bottom: 2px solid white;
