@@ -456,17 +456,20 @@ button {
     background-color: var(--White);
   }
   p {
-    font-size: 1.5rem;
+    font-size: 2.9rem;
   }
   h1 {
     font-size: 3.8rem;
   }
+  h2 {
+    font-size: 2.5rem
+  }
+  h3 {
+    font-size: 5rem
+  }
   .pix {
     height: 480px;
     width: 930px;
-  }
-   h3 {
-    font-size: 5rem;
   }
   .desktop-logo {
     display: none;
