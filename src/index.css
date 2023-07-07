@@ -194,6 +194,9 @@ li {
   font-size: 1.5rem;
   padding-left: 20px;
 }
+.shop:hover {
+  color: var(--DarkGray);
+}
 .dark {
   margin-top: 40px;
   width: 100%;
