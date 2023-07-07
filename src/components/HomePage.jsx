@@ -69,6 +69,22 @@ const HomePage = () => {
                 className="shopping-arrow"
               />
             </div>
+            <div className="desktop-arrow">
+              <button className="left-arrow-bg" onClick={handlePrevious}>
+                <img
+                  src="/icon-angle-left.svg"
+                  alt="arrow"
+                  className="left-arrow"
+                />
+              </button>
+              <button className="right-arrow-bg" onClick={handleNext}>
+                <img
+                  src="/icon-angle-right.svg"
+                  alt="arrow"
+                  className="right-arrow"
+                />
+              </button>
+            </div>
           </div>
         </section>
         <nav className="nav">
@@ -134,22 +150,6 @@ const HomePage = () => {
           </button>
           <button className="right-bg" onClick={handleNext}>
             <img src="/icon-angle-right.svg" alt="arrow" className="right" />
-          </button>
-        </div>
-        <div className="desktop-arrow">
-          <button className="left-arrow-bg" onClick={handlePrevious}>
-            <img
-              src="/icon-angle-left.svg"
-              alt="arrow"
-              className="left-arrow"
-            />
-          </button>
-          <button className="right-arrow-bg" onClick={handleNext}>
-            <img
-              src="/icon-angle-right.svg"
-              alt="arrow"
-              className="right-arrow"
-            />
           </button>
         </div>
       </div>
