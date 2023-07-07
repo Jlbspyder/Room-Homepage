@@ -42,6 +42,18 @@ const HomePage = () => {
                 )}
               </div>
             ))}
+            <div className="mobile-arrows">
+              <button className="left-bg" onClick={handlePrevious}>
+                <img src="/icon-angle-left.svg" alt="arrow" className="left" />
+              </button>
+              <button className="right-bg" onClick={handleNext}>
+                <img
+                  src="/icon-angle-right.svg"
+                  alt="arrow"
+                  className="right"
+                />
+              </button>
+            </div>
           </div>
           <div className="wrapper">
             {storeItems.map((item, index) => (
@@ -144,14 +156,6 @@ const HomePage = () => {
             className={open ? "mobile-menu-banner" : "mobile-menu-banner-close"}
           ></div>
         )}
-        <div className="mobile-arrows">
-          <button className="left-bg" onClick={handlePrevious}>
-            <img src="/icon-angle-left.svg" alt="arrow" className="left" />
-          </button>
-          <button className="right-bg" onClick={handleNext}>
-            <img src="/icon-angle-right.svg" alt="arrow" className="right" />
-          </button>
-        </div>
       </div>
       <section className="three">
         <div className="pix-container">
