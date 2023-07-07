@@ -17,8 +17,9 @@
 }
 h1{
   font-size: 3rem;
-  margin-bottom: 3px;
+  margin-top: 25px;
   padding: 20px;
+  color: var(--Black);
 }
 h2 {
   font-size: 1.7rem;
@@ -32,63 +33,54 @@ h3 {
 p {
   font-size: 1.3rem;
   line-height: 1.2;
-  padding: 0 20px;
+  padding: 5px 20px 20px 20px;
   color: var(--DarkGray);
 }
 .container {
-  width: 400px;
+  position: relative;
+  max-width: 400px;
   height: 100vh;
   background-color: var(--White);
 }
 .pix-container {
   height: 300px;
-  width: 414px;
+  width: 400px;
 }
 .hamburger {
   cursor: pointer;
 }
 .close {
   position: absolute;
-  top: 0;
-  left: 1rem;
+  top: 1px;
+  left: -10px;
   margin-top: 0;
   cursor: pointer;
   color: var(--DarkGray);
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
   z-index: 500;
-}
-.pix {
-  width: 414px;
 }
 .hero-1 {
   position: relative;
   width: 100%;
+  margin-left: 5px;
   height: 350px;
- animation: slideFromLeft 0.5s ease-in-out;
+  animation: slideFromLeft 0.7s ease-in-out;
 }
 .wrapper{
-  width: 414px;
-  animation: slideFromRight 0.5s ease-in-out;
-}
-.wrapper2 {
-  width: 414px;
-}
-.discover {
-  width: 414px;
+  width: 400px;
 }
 .desktop-hero-1 {
   display: none;
 }
-.mobile-menu-banner {
+.mobile-menu {
   position: absolute;
-  top: 0;
-  left: 0;
-  background: var(--White);
-  animation: slideFromRight 0.3s ease-in-out;
-  width: 100%;
-  height: 100px;
-  z-index: 400;
+  top: 35px;
+  left: 90px;
+  display: flex;
+  animation: slideFromRight 0.7s ease-in-out;
+  gap: 1.5rem;
+  z-index: 500;
 }
 .mobile-menu-bg {
   position: absolute;
@@ -96,9 +88,22 @@ p {
   left: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
-  animation: slideFromRight 0.3s ease-in-out;
-  width: 100%;
+  animation: slideFromRight 0.7s ease-in-out;
+  width: 103%;
   z-index: 300;
+}
+.mobile-menu-banner-close {
+  animation: slideOutRight 0.7s ease-in-out;
+}
+.mobile-menu-banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: var(--White);
+  animation: slideFromRight 0.7s ease-in-out;
+  width: 103%;
+  height: 100px;
+  z-index: 400;
 }
 .nav {
   position: absolute;
@@ -108,15 +113,6 @@ p {
   justify-content: space-between;
   align-items: center;
   gap: 9rem;
-}
-.mobile-menu {
-  position: absolute;
-  top: 35px;
-  left: 12rem;
-  display: flex;
-  animation: slideFromRight 0.3s ease-in-out;
-  gap: 1.5rem;
-  z-index: 500;
 }
 .desktop-logo {
   display: none;
@@ -129,7 +125,7 @@ p {
 }
 li {
   list-style-type: none;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 .left-arrow-bg {
   display: none;
@@ -145,8 +141,8 @@ li {
 }
 .left-bg {
   position: absolute;
-  top: 25.1rem;
-  right: 4.9rem;
+  top: 25rem;
+  right: 4.5rem;
   background: var(--Black);
   width: 5rem;
   height: 4rem;
@@ -157,8 +153,8 @@ li {
 }
 .right-bg {
   position: absolute;
-  top: 25.1rem;
-  right: 0;
+  top: 25rem;
+  right: -0.5rem;
   background: var(--Black);
   width: 5rem;
   height: 4rem;
@@ -168,20 +164,19 @@ li {
   background: var(--DarkGray);
 }
 .left {
-  width: 1rem;
+  width: 1.3rem;
   position: absolute;
   top: 25%;
-  left: 15px;
+  left: 20px;
   cursor: pointer;
 }
 .right {
-  width: 1rem;
+  width: 1.3rem;
   position: absolute;
   top: 30%;
-  right: 15px;
+  right: 20px;
   cursor: pointer;
 }
-
 .two {
   height: 300px;
 }
@@ -195,19 +190,13 @@ li {
   font-size: 1.5rem;
   padding-left: 20px;
 }
-.shop:hover {
-    color: var(--DarkGray);
-  }
 .dark {
   margin-top: 40px;
   width: 100%;
   height: 300px;
 }
-.lightPix-container {
-  width: 414px;
-}
 .light {
-  margin-top: 5px;
+  margin-top: 15px;
   width: 100%;
   height: 300px;
 }
@@ -218,14 +207,14 @@ li {
 }
 .about h1 {
   margin-top: 40px;
-  font-size: 2.3rem;
+  font-size: 1.7rem;
   letter-spacing: 0.2rem;
 }
 button {
   border: none;
-} 
+}
 .attribution { 
-display: none;
+  display: none;
 }
 @keyframes slideFromLeft {
   0% {
@@ -243,20 +232,23 @@ display: none;
     transform: translateX(0);
   }
 }
+@keyframes slideOutRight {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
 
 @media only screen and (min-width: 600px) {
   body {
     background: var(--Black);
-    overflow-x: hidden;
   }
   .container {
-    width: 100%;
+    max-width: 1440px;
     height: 650px;
     background-color: var(--White);
-  }
-  
-  h1 {
-    margin-bottom: 5px;
   }
   h3 {
     font-size: 2rem;
@@ -270,9 +262,12 @@ display: none;
   .description {
     width: 400px;
   }
+  .discover {
+    width: 380px;
+  }
   .desktop-hero-1 {
     display: block;
-    width: 63rem;
+    width: 100%;
     height: 400px;
   }
   .hamburger {
@@ -282,35 +277,38 @@ display: none;
     top: 32px;
     left: -70px;
   }
+  .one {
+    max-width: 1440px;
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+  }
   .two {
     width: 460px;
     height: 400px;
     position: relative;
   }
   .wrapper {
-    padding: 20px;
-    height: 100%;
+    position: relative;
+    padding: 5px 0 20px 20px;
     width: 100%;
     display: flex;
     flex-direction: column;
-    animation-name: slideFromRight;
-    animation-duration: 0.7s;
+    animation: slideFromRight 0.7s ease-in-out;
+  }
+  .pix {
+    width: 100%;
+    height: 400px;
+    animation: slideFromLeft 0.7s ease-in-out;
   }
   .left-arrow-bg {
     position: absolute;
-    bottom: 0;
-    left: 2px;
+    top: 55.4%;
+    right: 35.3%;
     width: 60px;
     height: 40px;
     background-color: black;
     cursor: pointer;
     display: block;
-  }
-  .left-arrow-bg:hover {
-    background: var(--DarkGray);
-  }
-  .right-arrow-bg:hover {
-    background: var(--DarkGray);
   }
   .left-arrow {
     position: absolute;
@@ -321,8 +319,8 @@ display: none;
   }
   .right-arrow-bg {
     position: absolute;
-    bottom: 0;
-    left: 62px;
+    top: 55.4%;
+    right: 30.6%;
     width: 60px;
     height: 40px;
     background-color: black;
@@ -333,8 +331,14 @@ display: none;
     position: absolute;
     width: 10px;
     top: 25%;
-    left: 35px;
+    left: 34px;
     display: block;
+  }
+  .left-arrow-bg:hover {
+    background: var(--DarkGray);
+  }
+  .right-arrow-bg:hover {
+    background: var(--DarkGray);
   }
   .desktop-menu {
     position: absolute;
@@ -367,17 +371,6 @@ display: none;
   .mobile-menu {
     display: none;
   }
-  .flexbox {
-    display: flex;
-    gap: 4.5rem;
-    flex: 1;
-  }
-  .pix {
-    width: 700px;
-    height: 400px;
-    animation-name: slideFromLeft;
-    animation-duration: 0.7s;
-  }
   .right {
     display: none;
   }
@@ -391,7 +384,7 @@ display: none;
     display: none;
   }
   .three {
-    width: 100%;
+    max-width: 1440px;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
   }
@@ -401,6 +394,7 @@ display: none;
   }
   .about h1 {
     font-size: 2rem;
+    color: var(--Black);
   }
   .dark {
     margin-top: 0;
@@ -410,13 +404,9 @@ display: none;
     width: 100%;
     height: 100%;
   }
-  .lightPix-container {
-    width: 100%;
-  }
   .light {
     margin-top: 0;
     height: 100%;
-    width: 100%;
   }
   .wrapper2 {
     background-color: var(--White);
@@ -425,7 +415,7 @@ display: none;
     height: 100%;
   }
   .shop {
-    margin-top: -70px;
+    margin-top: -10px;
     cursor: pointer;
     padding-left: 35px;
   }
@@ -441,36 +431,99 @@ display: none;
     text-align: center; 
     position: absolute;
     color: hsl(228, 45%, 44%); 
-    bottom: -21%;
+    top: 110%;
     left: 40%;
   }
   .attribution a { 
     color: var(--White);
   }
 }
-@media only screen and (min-width: 1300px) {
-  .container {
-    width: 100%;
-    height: 650px;
+@media only screen and (min-width: 750px) and (max-width:850px) {
+  body {
     background-color: var(--White);
   }
-  P {
-    margin-top: 20px;
+  p {
+    font-size: 1.5rem;
   }
   h1 {
+    font-size: 3.8rem;
+  }
+  .pix {
+    height: 480px;
+    width: 930px;
+  }
+  .desktop-hero-1 {
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+  .left-arrow-bg {
+    top: 64.4%;
+    right: -3.1rem;
+    width: 75px;
+    height: 60px;
+  }
+  .left-arrow {
+    width: 15px;
+  }
+  .right-arrow-bg {
+    top: 64.4%;
+    right: -9.3rem;
+    width: 75px;
+    height: 60px;
+  }
+  .right-arrow {
+    width: 15px;
+  }
+  .one {
+    max-width: 880px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .wrapper {
+    position: relative;
+    padding: 5px 0 20px 20px;
+    width: 880px;
+  }
+  .discover {
+    width: 850px;
+  }
+  .description {
+    width: 780px;
+  }
+  .pix-container {
+    width: 930px;
+    height: 95%;
+  }
+  .dark {
+    margin-top: 20px;
+    height: 100%;
+  }
+  .light {
+    margin-top: 0;
+    height: 100%;
+  }
+  .three {
+    max-width: 880px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .about h1 {
     font-size: 3rem;
   }
+  .about {
+    padding-left: 20px;
+  }
+  .attribution { 
+    display: none;
+  }
+}
+@media only screen and (min-width: 1300px) {
   .two {
     width: 100%;
   }
   .wrapper {
-    height: 100%;
     margin-left: 3.1rem;
-    width: 100%;
-  }
-  .wrapper2 {
-    background-color: var(--White);
-    padding: 10px;
     width: 100%;
     height: 100%;
   }
@@ -485,16 +538,13 @@ display: none;
   .desktop-hero-1 {
     width: 65.9rem;
   }
-  .about p {
-    margin-top: 20px;
-  }
   .shop {
     padding-left: 4.5rem;
   }
   .desktop-logo {
     margin-bottom: 5px ;
     display: block;
-  } 
+  }  
   .left-arrow-bg {
     left: 6.2%;
     width: 75px;
@@ -508,16 +558,8 @@ display: none;
   }
   .right-arrow {
     left: 43px;
-  } 
-  .lightPix-container {
-    width: 408px;
   }
-  .light {
-    margin-top: 0;
-    height: 100%;
-    width: 100%;
-  }
-  .attribution {  
-    bottom: -11%;
+  .attribution {
+    bottom: -13%;
   }
 }
