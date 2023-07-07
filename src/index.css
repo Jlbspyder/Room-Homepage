@@ -73,6 +73,7 @@ p {
 }
 .wrapper{
   width: 400px;
+  animation: slideFromRight 0.7s ease-in-out;
 }
 .desktop-hero-1 {
   display: none;
