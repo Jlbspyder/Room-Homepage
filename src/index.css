@@ -524,6 +524,9 @@ button {
     display: block;
     height: 100%;
   }
+  .desktop-hero-1 {
+    display: none;
+  }
   .left-arrow-bg {
     top: 64.4%;
     right: -3.1rem;
