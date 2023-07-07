@@ -44,11 +44,10 @@ p {
 }
 .pix-container {
   height: 300px;
-  width: 414px;
+  width: 410px;
 }
 .pix {
-  width: 414px;
-  margin-left: -2px;
+  width: 410px;
 }
 .hamburger {
   cursor: pointer;
@@ -200,7 +199,7 @@ li {
   height: 300px;
 }
 .lightPix-container {
-  width: 414px
+  width: 410px
 }
 .light {
   margin-top: 15px;
