@@ -312,36 +312,36 @@ button {
   }
   .left-arrow-bg {
     position: absolute;
-    top: 55.4%;
-    right: 35.6%;
-    width: 60px;
-    height: 40px;
+    top: 53.8%;
+    right: 32.7%;
+    width: 96px;
+    height: 50px;
     background-color: black;
     cursor: pointer;
     display: block;
   }
   .left-arrow {
     position: absolute;
-    width: 10px;
+    width: 13px;
     top: 25%;
-    left: 20px;
+    left: 50%;
     display: block;
   }
   .right-arrow-bg {
     position: absolute;
-    top: 55.4%;
-    right: 30.9%;
-    width: 60px;
-    height: 40px;
+    top: 53.8%;
+    right: 25.1%;
+    width: 96px;
+    height: 50px;
     background-color: black;
     cursor: pointer;
     display: block;
   }
   .right-arrow {
     position: absolute;
-    width: 10px;
+    width: 13px;
     top: 25%;
-    left: 34px;
+    left: 50%;
     display: block;
   }
   .left-arrow-bg:hover {
@@ -397,7 +397,8 @@ button {
     max-width: 1440px;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    grid-auto-rows: minmax(380px, auto);
+    grid-auto-rows: minmax(400px, auto);
+    grid-template-rows: 310px;
   }
   .about {
     margin-top: 20px;
