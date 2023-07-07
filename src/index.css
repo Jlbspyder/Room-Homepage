@@ -554,12 +554,13 @@ button {
     position: relative;
     padding: 5px 0 20px 20px;
     width: 880px;
+    height: 480px;
   }
   .discover {
     width: 850px;
   }
   .description {
-    width: 780px;
+    width: 880px;
   }
   .pix-container {
     width: 930px;
@@ -570,14 +571,16 @@ button {
     height: 100%;
   }
   .lightPix-container {
+    margin-top: 100px;
     width: 930px;
+    height: 480px;
   }
   .light {
-    margin-top: 0;
+    margin-top: 50px;
     height: 100%;
   }
   .three {
-    max-width: 850px;
+    max-width: 880px;
     display: grid;
     grid-template-columns: 1fr;
   }
