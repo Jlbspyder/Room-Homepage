@@ -440,6 +440,7 @@ button {
   }
   .attribution a { 
     color: var(--White);
+    text-decoration: none;
   }
 }
 @media only screen and (min-width: 750px) and (max-width:850px) {
