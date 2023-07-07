@@ -529,23 +529,45 @@ button {
   .desktop-hero-1 {
     display: none;
   }
-  .left-arrow-bg {
-    top: 64.4%;
-    right: -3.1rem;
-    width: 75px;
-    height: 60px;
+  .left-bg {
+    display: block;
+    position: absolute;
+    top: 80%;
+    right: 9rem;
+    background: var(--Black);
+    width: 10rem;
+    height: 8rem;
+    cursor: pointer;
   }
-  .left-arrow {
-    width: 15px;
+  .left {
+    display: block;
+    width: 2rem;
+    position: absolute;
+    left: 30%;
+    cursor: pointer;
   }
-  .right-arrow-bg {
-    top: 64.4%;
-    right: -9.3rem;
-    width: 75px;
-    height: 60px;
+ .right-bg {
+    display: block;
+    position: absolute;
+    top: 80%;
+    right: -1rem;
+    background: var(--Black);
+    width: 10rem;
+    height: 8rem;
+    cursor: pointer;
   }
-  .right-arrow {
-    width: 15px;
+  .right {
+    display: block;
+    width: 2rem;
+    position: absolute;
+    right: 40%;
+    cursor: pointer;
+  }
+   .right-bg:hover {
+    background: var(--DarkGray);
+  }
+   .desktop-arrow {
+    display: none;
   }
   .one {
     max-width: 850px;
