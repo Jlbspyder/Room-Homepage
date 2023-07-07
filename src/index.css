@@ -467,6 +467,7 @@ button {
     font-size: 5rem
   }
   .pix {
+    position: relative;
     height: 480px;
     width: 930px;
   }
