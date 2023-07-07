@@ -314,7 +314,7 @@ button {
     position: absolute;
     width: 13px;
     top: 25%;
-    left: 50%;
+    left: 40%;
     display: block;
   }
   .right-arrow-bg {
@@ -331,7 +331,7 @@ button {
     position: absolute;
     width: 13px;
     top: 25%;
-    left: 50%;
+    right: 40%;
     display: block;
   }
   .left-arrow-bg:hover {
