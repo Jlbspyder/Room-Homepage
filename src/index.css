@@ -506,6 +506,9 @@ button {
     margin-top: 20px;
     height: 100%;
   }
+  .lightPix-container {
+    width: 930px;
+  }
   .light {
     margin-top: 0;
     height: 100%;
