@@ -153,7 +153,7 @@ const HomePage = () => {
         {open && <div className="mobile-menu-bg"></div>}
         {open && (
           <div
-            className={open ? "mobile-menu-banner" : "mobile-menu-banner-close"}
+            className={open ? "mobile-menu-banner" : ""}
           ></div>
         )}
       </div>
