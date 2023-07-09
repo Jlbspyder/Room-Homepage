@@ -630,6 +630,7 @@ button {
     width: 100%
   }
   .right-bg {
+    background: red;
     right: 3rem;
   }
   .shop {
