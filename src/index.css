@@ -629,9 +629,8 @@ button {
   .desktop-hero-1 {
     width: 100%
   }
-  .right-bg {
-    background: red;
-    right: 3rem;
+  .right-arrow-bg {
+    right: 1rem;
   }
   .shop {
     margin-top: -1.5rem;
