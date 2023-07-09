@@ -616,6 +616,7 @@ button {
 @media only screen and (min-width: 1300px) {
   .wrapper {
     width: 100%;
+    padding-left: 4.5rem;
   }
   .discover {
     width: 400px;
@@ -629,7 +630,7 @@ button {
     width: 100%
   }
   .shop {
-    margin-top: 3rem;
+    margin-top: -3rem;
     padding-left: 4.5rem;
   }
   .desktop-logo {
