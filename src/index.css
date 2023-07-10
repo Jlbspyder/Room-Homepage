@@ -440,7 +440,7 @@ button {
     transform: translateX(-50%);
   }
   .attribution a { 
-    color: var(--White);
+    color: var(--DarkGray);
     text-decoration: none;
   }
 }
